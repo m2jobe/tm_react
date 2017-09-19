@@ -149,34 +149,34 @@ const Page = () => (
 );
 
 
-const MaterialHover = () => (
+const Classic = () => (
   <article className="article">
-    <h2 className="article-title">Trending Events</h2>
+    <h2 className="article-title">Trending</h2>
 
     <div className="row">
-      <div className="col-xl-4">
+      <div className="col-xl-6">
         <div className="ih-item ih-material">
           <a href="javascript:;">
             <div className="img">
-              <img src="https://i.imgur.com/4ngJkxu.jpg" alt="" />
+              <img src="http://via.placeholder.com/600x400" alt="" />
             </div>
             <div className="info">
               <div className="info-mask bg-color-primary" />
               <div className="info-content">
                 <div className="info-inner">
-                  <h3>Kodai Live</h3>
-                  <p>Drummer in Toronto</p>
+                  <h3>Heading Here</h3>
+                  <p>Description goes here</p>
                 </div>
               </div>
             </div>
           </a>
         </div>
       </div>
-      <div className="col-xl-4">
+      <div className="col-xl-6">
         <div className="ih-item ih-material">
           <a href="javascript:;">
             <div className="img">
-            <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
+              <img src="http://via.placeholder.com/600x400" alt="" />
             </div>
             <div className="info">
               <div className="info-mask bg-color-info" />
@@ -190,14 +190,18 @@ const MaterialHover = () => (
           </a>
         </div>
       </div>
-      <div className="col-xl-4">
+
+    </div>
+<br/>
+    <div className="row">
+      <div className="col-xl-6">
         <div className="ih-item ih-material">
           <a href="javascript:;">
             <div className="img">
-              <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
+              <img src="http://via.placeholder.com/600x400" alt="" />
             </div>
             <div className="info">
-              <div className="info-mask bg-color-dark" />
+              <div className="info-mask bg-color-primary" />
               <div className="info-content">
                 <div className="info-inner">
                   <h3>Heading Here</h3>
@@ -208,101 +212,118 @@ const MaterialHover = () => (
           </a>
         </div>
       </div>
-    </div>
-  </article>
-    );
-
-const Classic = () => (
-  <article className="article">
-    <h2 className="article-title">Events near you</h2>
-
-    <div className="row">
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 bottom_to_top">
+      <div className="col-xl-6">
+        <div className="ih-item ih-material">
           <a href="javascript:;">
             <div className="img">
-            <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
+              <img src="http://via.placeholder.com/600x400" alt="" />
             </div>
             <div className="info">
-              <h3>Heading here</h3>
-              <p>Description goes here</p>
+              <div className="info-mask bg-color-info" />
+              <div className="info-content">
+                <div className="info-inner">
+                  <h3>Heading Here</h3>
+                  <p>Description goes here</p>
+                </div>
+              </div>
             </div>
           </a>
         </div>
       </div>
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 bottom_to_top">
-          <a href="javascript:;">
-          <div className="img">
-          <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
-          </div>            <div className="info bg-color-info">
-              <h3>Heading here</h3>
-              <p>Description goes here</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 bottom_to_top">
-          <a href="javascript:;">
-          <div className="img">
-          <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
-          </div>            <div className="info bg-color-primary">
-              <h3>Heading here</h3>
-              <p>Description goes here</p>
-            </div>
-          </a>
-        </div>
-      </div>
+
     </div>
-    <div className="row">
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 top_to_bottom">
-          <a href="javascript:;">
-          <div className="img">
-          <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
-          </div>            <div className="info">
-              <h3>Heading here</h3>
+<br/>
+<div className="row">
+  <div className="col-xl-6">
+    <div className="ih-item ih-material">
+      <a href="javascript:;">
+        <div className="img">
+          <img src="http://via.placeholder.com/600x400" alt="" />
+        </div>
+        <div className="info">
+          <div className="info-mask bg-color-primary" />
+          <div className="info-content">
+            <div className="info-inner">
+              <h3>Heading Here</h3>
               <p>Description goes here</p>
             </div>
-          </a>
+          </div>
         </div>
-      </div>
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 top_to_bottom">
-          <a href="javascript:;">
-          <div className="img">
-          <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
-          </div>            <div className="info bg-color-info">
-              <h3>Heading here</h3>
-              <p>Description goes here</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div className="col-xl-4">
-        <div className="ih-item square effect3 top_to_bottom">
-          <a href="javascript:;">
-          <div className="img">
-          <img src="https://i.imgur.com/ZYIsItA.jpg" alt="" />
-          </div>            <div className="info bg-color-primary">
-              <h3>Heading here</h3>
-              <p>Description goes here</p>
-            </div>
-          </a>
-        </div>
-      </div>
+      </a>
     </div>
+  </div>
+  <div className="col-xl-6">
+    <div className="ih-item ih-material">
+      <a href="javascript:;">
+        <div className="img">
+          <img src="http://via.placeholder.com/600x400" alt="" />
+        </div>
+        <div className="info">
+          <div className="info-mask bg-color-info" />
+          <div className="info-content">
+            <div className="info-inner">
+              <h3>Heading Here</h3>
+              <p>Description goes here</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+<br/>
+<div className="row">
+  <div className="col-xl-6">
+    <div className="ih-item ih-material">
+      <a href="javascript:;">
+        <div className="img">
+          <img src="http://via.placeholder.com/600x400" alt="" />
+        </div>
+        <div className="info">
+          <div className="info-mask bg-color-primary" />
+          <div className="info-content">
+            <div className="info-inner">
+              <h3>Heading Here</h3>
+              <p>Description goes here</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div className="col-xl-6">
+    <div className="ih-item ih-material">
+      <a href="javascript:;">
+        <div className="img">
+          <img src="http://via.placeholder.com/600x400" alt="" />
+        </div>
+        <div className="info">
+          <div className="info-mask bg-color-info" />
+          <div className="info-content">
+            <div className="info-inner">
+              <h3>Heading Here</h3>
+              <p>Description goes here</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+
   </article>
 );
 
+
 const HoverSection = () => (
-  <section className="container-fluid with-maxwidth chapter">
+  <div className="container-fluid no-breadcrumbs page-dashboard">
     <QueueAnim type="bottom" className="ui-animate">
-      <div key="1"><MaterialHover /></div>
-      <div key="2"><Classic /></div>
+      <div key="1"><Classic /></div>
     </QueueAnim>
-  </section>
+  </div>
 );
 
 module.exports = HoverSection;

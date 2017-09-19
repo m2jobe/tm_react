@@ -24,7 +24,7 @@ class NavRightList extends React.Component {
       <ul className="list-unstyled float-right">
         <li style={{marginRight: '10px'}}>
           <IconMenu
-            iconButtonElement={<IconButton style={ImgIconButtonStyle}><img src="assets/images/g1.jpg" alt="" className="rounded-circle img30_30" /></IconButton>}
+            iconButtonElement={<IconButton style={ImgIconButtonStyle}><img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKNAAAAJDMyNDhhZWYyLWU0NGMtNDZjNS05ODNkLWY5YTAyZjhmODllZg.jpg" alt="" className="rounded-circle img30_30" /></IconButton>}
             onChange={this.handleChange}
             anchorOrigin={{horizontal: 'right', vertical: 'bottom'}}
             targetOrigin={{horizontal: 'right', vertical: 'top'}}

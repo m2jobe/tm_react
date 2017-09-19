@@ -118,7 +118,7 @@ class SidebarContent extends React.Component {
         <li className="nav-divider" />
         <li className="nav-header"><span>Become a Tourmonkey</span></li>
         <li className="li-small"><FlatButton href="#/sign-up"><i className="nav-icon nav-dot material-icons color-info">fiber_manual_record</i><span className="nav-text">Join Now</span></FlatButton></li>
-{/*
+
         <li>
           <FlatButton href="#/sign"><i className="nav-icon material-icons">folder_open</i><span className="nav-text">UI Kit</span></FlatButton>
           <ul>
@@ -233,7 +233,7 @@ class SidebarContent extends React.Component {
         <li className="nav-header"><span>Material Design</span></li>
         <li className="li-small"><FlatButton href="#/app/form/components"><i className="nav-icon nav-dot material-icons color-success">fiber_manual_record</i><span className="nav-text">Form Components</span></FlatButton></li>
         <li className="li-small"><FlatButton href="#/app/ui/components"><i className="nav-icon nav-dot material-icons color-info">fiber_manual_record</i><span className="nav-text">UI Components</span></FlatButton></li>
-*/}
+
       </ul>
     );
   }

@@ -40,20 +40,20 @@ class NavLeftList extends React.Component {
             <MenuItem
               className="header-icon-dropdown-item"
               leftIcon={<i className="material-icons">mail_outline</i>}
-              primaryText="David Bowie Live Event starting"
+              primaryText="David Live Event starting"
               secondaryText={<span className="text-muted">5min ago</span>}
                         />
             <MenuItem
               className="header-icon-dropdown-item"
               leftIcon={<i className="material-icons">mail_outline</i>}
-              primaryText="John Elton Live Event starting"
+              primaryText="Elton Live Event starting"
               secondaryText={<span className="text-muted">1h ago</span>}
                         />
             <Divider />
             <MenuItem
               className="header-icon-dropdown-item"
               leftIcon={<i className="material-icons">mail_outline</i>}
-              primaryText="Rewatch yesterdays live event"
+              primaryText="Rewatch live event"
               secondaryText={<span className="text-muted">5min ago</span>}
                         />
             <MenuItem

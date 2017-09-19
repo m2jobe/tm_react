@@ -3,9 +3,9 @@ const year = date.getFullYear();
 
 const APPCONFIG = {
   brand: 'Tourmonkeys',
-  user: 'Lisa',
+  user: 'Muhammed',
   year,
-  productLink: 'https://themeforest.net/item/material-design-reactjs-admin-web-app-with-bootstrap-4/19582625',
+  productLink: 'http://tourmonkeys.com',
   AutoCloseMobileNav: true,                         // true, false. Automatically close sidenav on route change (Mobile only)
   color: {
     primary: '#00BCD4',
@@ -19,10 +19,10 @@ const APPCONFIG = {
   },
   settings: {
     layoutBoxed: false,                             // true, false
-    navCollapsed: false,                            // true, false
+    navCollapsed: true,                            // true, false
     navBehind: false,                               // true, false
     fixedHeader: true,                              // true, false
-    sidebarWidth: 'middle',                         // small, middle, large
+    sidebarWidth: 'small',                         // small, middle, large
     colorOption: '25',                              // String: 11,12,13,14,15,16; 21,22,23,24,25,26; 31,32,33,34,35,36
     theme: 'light',                                 // light, gray, dark
   }
