@@ -1,0 +1,22 @@
+html, body, .app-header {
+    background-color: #FAF9F9 !important;
+}
+
+.page-auth .body-inner:before, .page-login .body-inner:before, .page-signup .body-inner:before, .page-forgot .body-inner:before {
+    background-color: #B95656 !important;
+}
+
+.tm-logo-text > h1 > a {
+  color: #B95656 !important;
+}
+
+.tm-logo {
+  width: 20vh;
+}
+
+@media (min-width: 768px) {
+.page-auth .main-body, .page-login .main-body, .page-signup .main-body, .page-forgot .main-body {
+    padding-top: 30px !important;
+}
+
+}
